@@ -1,0 +1,32 @@
+{
+  "name": "wieland-api",
+  "version": "1.0.0",
+  "description": "Wieland api",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run serve",
+    "start-dev": "cross-env DEBUG=app:* npm start",
+    "serve": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "0.0.31",
+    "@types/express": "^4.16.0",
+    "@types/lodash": "^4.14.117",
+    "@types/mongodb": "^3.1.14",
+    "@types/node": "^10.12.0",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.5",
+    "ts-node": "^7.0.1"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.8",
+    "morgan": "^1.9.1"
+  }
+}

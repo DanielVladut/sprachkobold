@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.ico">
+
+  <title>New Verb</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/fontawesome-all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/form-validation.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container"> 
+        <a class="navbar-brand" href="#">Wieland</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Add word</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="newnoun.html">Add noun</a>
+                <a class="dropdown-item" href="newverb.html">Add verb</a>
+                <a class="dropdown-item" href="newother.html">Add other</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Practice</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="practicebythematic.html">By thematic</a>
+                <a class="dropdown-item" href="#">Verbs with prepositions</a>                
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Progress</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">By thematic</a>
+                <a class="dropdown-item" href="#">Verbs with prepositions</a>                
+              </div>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container marketing">
+      <div class="mb-3">
+        <h2>New Verb</h2>
+      </div>
+      <!-- <hr class="mb-4">       -->
+        <div class="row bg-white shadow rounded pt-4 px-2 pb-2">
+          
+          <!-- ****************************************************** -->
+          <div class="col-md-8">            
+            <form class="needs-validation" novalidate>   
+              <h4 class="mb-3">Definition and translations</h4>
+              <div class="form-row">   
+                <div class="col-md-6">
+                  <div class="form-row">
+                    <div class="form-group col-md-11">
+                      <label>New word in German</label>
+                      <input type="text" class="form-control" required>
+                      <div class="invalid-feedback">
+                        The word in German is required.
+                      </div>
+                    </div>
+                    <div class="form-group col-md-11">
+                      <label>Praeteritum</label>
+                      <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group col-md-11">
+                        <label>Past Perfect</label>
+                        <input type="text" class="form-control" required>
+                      </div>
+                  </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label>Translation</label>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control">
+                    <div class="input-group-append">
+                      <span class="input-group-text">
+                        <button class="btn btn-sm btn-outline-secondary fas fa-plus"></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                    <div class="form-control-plaintext">some small text</div>
+                    <div class="input-group-append align-items-center ml-3">
+                        <span class="d-flex align-items-stretch">
+                          <span class="mr-1 d-flex align-items-stretch">
+                          <button class=" btn btn-sm btn-secondary  fas fa-pencil-alt"></button>
+                        </span>
+                          <button class="btn btn-secondary fas fa-trash-alt"></button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="input-group">
+                      <div class="form-control-plaintext">some bigger text that should fit on two rows</div>
+                      <div class="input-group-append align-items-center ml-3">
+                          <span class="d-flex align-items-stretch">
+                            <span class="mr-1 d-flex align-items-stretch">
+                            <button class=" btn btn-sm btn-secondary  fas fa-pencil-alt"></button>
+                          </span>
+                            <button class="btn btn-secondary fas fa-trash-alt"></button>
+                        </span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-4">
+
+              <!-- ****************************************************** -->
+              <h4 class="mb-3">Verb Prepositions</h4>
+              <div class="form-row">   
+                <div class="form-group col-md-4">
+                  <label>Preposition</label>
+                  <input type="text" class="form-control" required>                    
+                </div>
+                <div class="form-group col-md-8">
+                  <label>Translation</label>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control">
+                    <div class="input-group-append">
+                      <span class="input-group-text">
+                        <button class="btn btn-sm btn-outline-primary fas fa-plus"></button>
+                      </span>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+              <div class="form-row"> 
+                <div class="col-md-4">auf</div>
+                <div class="col-md-8">some special meaning when using auf</div>
+              </div>
+              <div class="form-row"> 
+                  <div class="col-md-4">um</div>
+                  <div class="col-md-8">some special meaning when using um</div>
+                </div>
+              <hr class="mb-4">
+              
+              <!-- ****************************************************** -->
+              <h4 class="mb-3">Examples</h4>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label>German</label>
+                  <input type="text" class="form-control" required>
+                  <div class="invalid-feedback">
+                    The word in German is required.
+                  </div>
+                </div>
+                <div class="form-group col-md-12">
+                  <label>Translation</label>
+                  <input type="text" class="form-control" required>
+                  <div class="invalid-feedback">
+                    The word in German is required.
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-row-reverse mb-3">
+                <button type="submit" class="btn btn-secondary">Add Example</button>
+              </div>
+              <ul class="list-group mb-3">
+                <li class="list-group-item justify-content-between lh-condensed">
+                  <h6 class="text-info my-0">Some expression in german that is longer than one row to see how it looks</h6>
+                  <small class="text-muted">The same expression translated that should be spread accross two rows</small>
+                  <div class="d-flex flex-row-reverse">
+                    <button type="submit" class="btn btn-sm btn-secondary">Delete</button>
+                    <button type="submit" class="btn btn-sm btn-secondary ml-3">Edit</button>
+                  </div>
+                </li>
+                <li class="list-group-item justify-content-between lh-condensed">
+                  <h6 class="text-info my-0">Some expression in german</h6>
+                  <small class="text-muted">The same expression translated</small>
+                </li>
+              </ul>
+            </form>
+          </div>
+
+          <!-- ****************************************************** -->
+          <div class="col-md-4 mb-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-muted">Expressions</span>
+            </h4>
+            <ul class="list-group mb-3">
+              <li class="list-group-item justify-content-between lh-condensed">
+                <h6 class="text-info my-0">Some expression in german that is longer than one row to see how it looks</h6>
+                <small class="text-muted">The same expression translated that should be spread accross two rows</small>
+                <div class="d-flex flex-row-reverse">
+                  <button type="submit" class="btn btn-sm btn-secondary">Edit</button>
+                </div>
+              </li>
+              <li class="list-group-item justify-content-between lh-condensed">
+                <h6 class="text-info my-0">Some expression in german</h6>
+                <small class="text-muted">The same expression translated</small>
+              </li>
+            </ul>
+            <div class="d-flex flex-row-reverse">
+              <button type="submit" class="btn btn-secondary">New expression</button>
+            </div>
+          </div>
+        </div>      
+      
+      <footer class="pt-5 text-muted text-center text-small">
+        <p class="mb-1">&copy; 2017-2018 Company Name</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Support</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </main>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+
+  <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+      'use strict';
+
+      window.addEventListener('load', function () {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function (form) {
+          form.addEventListener('submit', function (event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+</body>
+
+</html>
